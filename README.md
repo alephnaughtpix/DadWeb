@@ -1,3 +1,5 @@
+**NOTE**: This project is now being maintained by the **Senior Dads** on their own GitHub account. The new repository can be found [here](https://github.com/theseniordads/theseniordads.github.io). The original GitHub pages site will remain and contain redirects to the new site.
+
 # DadWeb
 
 ### Putting the Jekyll into the Senior Dads legacy website.

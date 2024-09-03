@@ -1,4 +1,21 @@
 /* s3N10r sZcR1pTzC!!!!!1!1!!*/
+
+function fadeIn(element, callback) {
+	element.classList.add('fade-in');
+	element.addEventListener('animationend', function() {
+		element.classList.remove('fade-in');
+		if (callback) callback();
+	});
+}
+
+function fadeOut(element, callback) {
+	element.classList.add('fade-out');
+	element.addEventListener('animationend', function() {
+		if (callback) callback();
+		element.classList.remove('fade-out');
+	});
+}
+
 $(document).ready( function() {
 	var htmlWordMatch = /(<\/?\w+(?:(?:\s+\w+(?:\s*=\s*(?:".*?"|'.*?'|[^'">\s]+))?)+\s*|\s*)\/?>)/gim;
 	visitorCounter();
